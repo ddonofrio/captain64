@@ -31,3 +31,5 @@ The three internal ROMs from the Commodore 64 are stored in a single chip: [AT28
 
 The SRAM ([AS6C1008](https://www.mouser.es/datasheet/2/12/AS6C1008feb2007-1511508.pdf)) 128KBytes
 
+## Work in progress:
+![Work in progress](https://github.com/ddonofrio/captain64/raw/master/Docs/work%20in%20progress.png)
