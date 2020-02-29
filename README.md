@@ -22,19 +22,12 @@ For this specific one:
  - It must be modular, so that it can be acquired by parts, having incremental functionality from the beginning.
  - Keep it cheap must be a goal, so that makes it possible to build it by anyone who is really interested.
  - It must be build in [breadboards](https://en.wikipedia.org/wiki/Breadboard) (soldering iron and tin are not required), so that makes it easier to be build.
+ 
+## Implementation:
 
-## Project status:
+Captain 64 uses a STM32 [Nucleo-144](https://github.com/ddonofrio/captain64/blob/master/Datasheets/nucleo-l496zg-p.pdf) board for emulating the [PLA](https://www.c64-wiki.com/wiki/PLA_(C64_chip)), the [CIA](https://www.c64-wiki.com/wiki/CIA), the [VIC II](https://www.c64-wiki.com/wiki/VIC#VIC-II). Also for translating the address for the [Kernal](https://www.c64-wiki.com/wiki/Kernal), [Charset](https://www.c64-wiki.com/wiki/Character_set) and [Basic](https://www.c64-wiki.com/wiki/BASIC_ROM) ROMs.
 
-### First milestone (On going): 
-* To build a Commodore 64 compatible computer in breadboards, which cost must be less than 50 euros.
-* It runs the original basic of commodore 64 (only text mode).
-* The following ports are available:
-	* VGA, RCA or both output connector(s) for monitor or TV.
-	* USB keyboard connector (Mapped as [vice](http://vice-emu.sourceforge.net/)).
-	* Datasette connector for loading and saving programs.
+The three internal ROMs from the Commodore 64 are stored in a single chip: [AT28C256 ](https://www.mouser.es/datasheet/2/268/doc0006-1108095.pdf) Atmel EEPROM
 
-For this part I have designed the motherboard and tested the probe of concepts.
-Since I can only work in spare time I cannot estimate how long it will take to complete this phase.
+The SRAM ([AS6C1008](https://www.mouser.es/datasheet/2/12/AS6C1008feb2007-1511508.pdf)) 128KBytes
 
-### Next milestone (Queued): 
-* Implement full VIC-II functionality (graphic modes and sprites.
