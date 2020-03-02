@@ -33,3 +33,9 @@ The SRAM ([AS6C1008](https://www.mouser.es/datasheet/2/12/AS6C1008feb2007-151150
 
 ## Work in progress:
 ![Work in progress](https://github.com/ddonofrio/captain64/raw/master/Docs/work%20in%20progress.png)
+
+BTW, if you're thinking "Oh my God, I have to support this guy!", [please buy me a coffee here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PJARBZL76RNW8&source=url) :)
+
+If you like my project, but you can not or do not want to pay money, please "Star", that does not give me money, but it raises morale a lot ;)
+
+Thank you!
