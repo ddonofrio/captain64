@@ -1,6 +1,9 @@
 
-# Captain 64 
+# Captain 64 (Not Active)
 A low-cost Commodore 64's compatible motherboard emulated in a microcontroller.
+
+## Not Active
+Due to personal reasons, I needed to stop working in this project. I believe I will back to work on it in some day. I will update this file as soon as I can continue working.
 
 ## Background
 A few years ago, when I started diving deep into digital electronics, I really wanted to create my own 8-bit computer, so I started dreaming about what it would be like. 
